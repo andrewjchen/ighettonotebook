@@ -1,0 +1,18 @@
+robolog(323 * 322)
+robolog('hello, world')
+for( var i = 0; i<10; i++) {
+  robolog("i=" + String(i));
+}
+function factorial(i) {
+  if (i == 0) {
+    return 1;
+  }
+  return i * factorial(i - 1);
+}
+
+robolog("factorial(7)=" + String(factorial(7)))
+433 + 32
+
+robolog(Date.now())
+32 + 21
+
